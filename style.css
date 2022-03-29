@@ -1,0 +1,85 @@
+@import url ("https://fonts.googleapis.com/css2? família=Roboto&display=swap");
+
+body {
+  background: linear-gradient(236.85deg, #008000 27.26%, #3468a7 96.03%);
+  fonte-família: "Roboto", sans-serif;
+}
+.container {
+  background: #ecf4ff;
+  color: #1c1c1c;
+  margin: 64px;
+  border-radius: 20px;
+  box-shadow: 8px 8px 8px #0e1d2f;
+  padding: 64px;
+}
+
+.cabecalho {
+  display: flex;
+  justify-content: space-between;
+}
+.perfil {
+  display: flex;
+}
+.perfil-foto {
+  border-radius: 400px;
+  max-height: 150px;
+  box-shadow: 0px 4px 4px #0e1d2f;
+}
+.titulo {
+  margin-left: 16px;
+}
+.titulo h1 {
+  font-weigh: 700;
+  font-size: 36px;
+}
+.titulo h3 {
+  font-weigh: 400;
+  font-size: 24px;
+}
+.tema button {
+  align-self: flex-end;
+  font-weigh: 400;
+  font-size: 24px;
+  padding: 8px 16px;
+  bachground: #ecf4ff;
+  border-radius: 100px;
+}
+.projetos {
+  diplay: flex;
+  flex-direction: columm;
+  background: linear-gradient(230.65deg, #499cfe 27.26%, #3468a7 96.03%);
+  margin-top: 32px;
+  padding: 32px;
+  border-radius: 20px;
+  box-shadow: 8px 8px 8px #0e1d2f;
+}
+.projeto-titulo {
+  list-style: none;
+  font-weight: 700;
+  font-size: 36px;
+}
+.projetos-itens {
+  list-style-type: none;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 50px;
+}
+.projetos-itens a {
+  collor: #1c1c1c;
+  text-decoration: none;
+}
+.dark {
+  background: #2f4f4f;
+}
+.dark .container {
+  background: #333439;
+  color: #f6f6f6;
+}
+.dark .projetos {
+  color: #1c1c1c;
+}
+.dark .tema button {
+  background: #1c1c1c;
+  color: #ffffff;
+  border: 2px solid #f7f7f7;
+}
